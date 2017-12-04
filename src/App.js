@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 /* eslint-disable react/no-multi-comp, react/prefer-stateless-function */
 
 class EditableRow extends Component {
+  // TODO:
   // Implement a row with state for whether the row is in editable mode or not.
   // If it isn't editable, render the "edit" button and the title
   // If it IS editable, render the "save" button and the editable text field
@@ -11,6 +12,8 @@ class EditableRow extends Component {
   // component and which functions should be _passed_ to this function as a
   // "prop". A common pattern in react is to keep all the ajax logic in one
   // place (App, in our case).
+  //
+  // Also, you'll want to pull this component out into its own .js file!
 }
 
 class App extends Component {
